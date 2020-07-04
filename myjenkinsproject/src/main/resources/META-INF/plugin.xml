@@ -13,7 +13,7 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="actions.UserStatePersistence"/>
+        <applicationService serviceImplementation="actions.service.UserStatePersistence"/>
     </extensions>
 
     <actions>
@@ -60,7 +60,7 @@
                     <keyboard-shortcut first-keystroke="control alt u" keymap="$default"/>
                 </action>
                 <action id = "MyJenkinsPlugin.ToolsMenu.myJenkinsPlugin.ResetUserCredentials"
-                        class="actions.ResetCredentials"
+                        class="actions.ui.ResetCredentials"
                         text="Reset Jenkins Credentials"
                         description="resetJenkinsCredentials">
 

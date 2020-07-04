@@ -1,4 +1,4 @@
-package actions;
+package actions.service;
 
 import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.ServiceManager;

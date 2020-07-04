@@ -1,5 +1,6 @@
-package actions;
+package actions.ui;
 
+import actions.service.UserStatePersistence;
 import com.intellij.openapi.ui.DialogWrapper;
 import com.intellij.ui.components.JBLabel;
 import com.intellij.uiDesigner.core.AbstractLayout;

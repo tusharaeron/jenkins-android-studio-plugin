@@ -1,6 +1,6 @@
-package actions;
+package actions.ui;
 
-import com.intellij.openapi.actionSystem.ActionManager;
+import actions.ui.ResetCredentialsForm;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import org.jetbrains.annotations.NotNull;

@@ -1,5 +1,6 @@
-package actions;
+package actions.ui;
 
+import actions.service.UserStatePersistence;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.editor.Editor;
@@ -20,7 +21,7 @@ public class ResetCredentialsForm extends JDialog{
 
     ResetCredentialsForm() {}
 
-    ResetCredentialsForm(AnActionEvent actionEvent) {
+    public ResetCredentialsForm(AnActionEvent actionEvent) {
         anActionEvent=actionEvent;
         setContentPane(contentPane);
         setModal(true);

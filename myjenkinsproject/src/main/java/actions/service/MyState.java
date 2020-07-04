@@ -1,4 +1,4 @@
-package actions;
+package actions.service;
 
 public class MyState{
     private String jenkinsCrumb;
