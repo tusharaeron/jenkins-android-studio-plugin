@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>myjenkinsproject.myjenkinsproject</id>
     <name>Jenkins New Build tool</name>
-    <vendor email="tusharaeron@urbanclap.com" url="http://www.urbanclap.com">Urbanclap</vendor>
+    <vendor email="tusharaeron@urbancompany.com" url="http://www.urbancompany.com">UrbanCompany</vendor>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
